@@ -16,3 +16,19 @@ body {
   font-style: italic;
   color:red;
 }
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .col {
+    background-color: gray;
+    border: 1px solid black
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+  .col{
+    float: left;
+    width: 200px;
+    background-color: LightGreen;
+    border:3px solid red;
+  }
+}
